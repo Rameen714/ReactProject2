@@ -9,7 +9,7 @@ class Events_Prac extends React.Component
     }
     inputHandler(){
         console.log("Input Changed");
-        //a chnage
+        
     }
     
     inputHandler2(event){
