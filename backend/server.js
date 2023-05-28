@@ -30,7 +30,6 @@ app.use(bodyparser.urlencoded({extended: false}));
 // })
 
 app.get('/',function(req,res){
-    const fileName= "index.html";
     res.sendFile('index.html');
 });
 
