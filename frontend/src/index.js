@@ -11,9 +11,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App />
-    <App_ct />
-    <App_lab9 /> */}
+    
+    <App_lab9 /> 
     <App_reactbasics />
+    */}
+    <App_ct />
     
   </React.StrictMode>
 );

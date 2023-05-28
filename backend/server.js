@@ -1,8 +1,8 @@
 var express = require('express');
 var app = express();
 
-// var bodyparser = require('body-parser');
-// app.use(bodyparser.urlencoded({extended: true}));
+var bodyparser = require('body-parser');
+app.use(bodyparser.urlencoded({extended: false}));
 
 // var nodemailer = require('nodemailer');
 // var transporter = nodemailer.createTransport({
@@ -42,3 +42,4 @@ app.post('/submit-data',function(req,res){
 var server = app.listen(5000,function(){
     console.log("Node server is running");
 })
+
